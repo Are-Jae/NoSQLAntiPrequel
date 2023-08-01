@@ -20,5 +20,9 @@ THEN I am able to successfully create and delete reactions to thoughts and add a
 
 ## Installation 
 
+- Run command "node app.js" in terminal 
+
 
 ## Tutorial 
+
+I was unable to start my server. I was also unable to get any response from Insomnia & MongoDB so there is no tutorial to provide. 
