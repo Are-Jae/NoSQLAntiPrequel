@@ -15,8 +15,8 @@ mongoose.connect('mongodb://localhost/social_network_db', {
 app.use(express.json());
 
 
-const usersRoutes = require('./routes/users');
-const thoughtsRoutes = require('./routes/thoughts');
+const usersRoutes = require('./app/models/routes/users');
+const thoughtsRoutes = require('./app/models/routes/thoughts');
 
 
 app.use('/api/users', usersRoutes);
